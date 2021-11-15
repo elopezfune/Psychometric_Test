@@ -1,9 +1,4 @@
 
-# coding: utf-8
-
-# In[8]:
-
-
 def jobOffers(scores,lowerLimits,upperLimits):
     if len(scores)>10**5 or len(lowerLimits)>10**5 or len(lowerLimits) != len(upperLimits):
         print('The arrays do not match the constrains')
@@ -47,9 +42,6 @@ def countInRange(array, n, x, y):
     count = 0;
     count = maxIndex(array, n, y) - minIndex(array, n, x) + 1;
     return count
-
-
-# In[9]:
 
 
 print(jobOffers([1,3,5,6,8],[2],[6]))
